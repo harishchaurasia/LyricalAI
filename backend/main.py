@@ -20,7 +20,7 @@ speech_model = whisper.load_model("base")
 
 @app.get("/")
 def read_root():
-    return {"message": "Lyrical.AI backend is running"}
+    return {"message": "Lyrical AI backend is running"}
 
 @app.post("/generate-lyrics")
 async def generate_lyrics(prompt: str):
