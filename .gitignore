@@ -17,3 +17,10 @@ Thumbs.db
 # Audio
 *.wav
 *.mp3
+*.csv
+
+# Dataset files
+FineTuned-AI-Models/dataset/lyrics.txt
+FineTuned-AI-Models/dataset/lyrics_dataset/
+FineTuned-AI-Models/training/lyrics_dataset/
+FineTuned-AI-Models/lyrics.csv
