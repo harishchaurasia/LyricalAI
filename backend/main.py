@@ -24,7 +24,17 @@ def read_root():
 
 @app.post("/generate-lyrics")
 async def generate_lyrics(prompt: str):
-    result = text_generator(prompt, max_length=100, num_return_sequences=1)
+    # result = text_generator(prompt, max_length=100, num_return_sequences=1)
+    result = text_generator(
+    prompt,
+    max_length=100,
+    num_return_sequences=1,
+    repetition_penalty=1.5,
+    temperature=0.9,
+    top_p=0.9,
+    do_sample=True,
+)
+
     return {"lyrics": result[0]["generated_text"]}
 
 @app.post("/transcribe-audio")
