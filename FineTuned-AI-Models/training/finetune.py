@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer, DataCollatorForLanguageModeling
 from datasets import load_from_disk
 
-dataset = load_from_disk("dataset/lyrics_dataset")
+dataset = load_from_disk("lyrics_dataset")
 
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
 tokenizer.pad_token = tokenizer.eos_token
