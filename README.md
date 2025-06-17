@@ -2,6 +2,14 @@
 
 LyricalAI is an innovative web application that combines the power of AI to generate, transcribe, and enhance music lyrics. Built with modern technologies, it offers a seamless experience for musicians, songwriters, and music enthusiasts.
 
+## 📸 Showcase
+
+![LyricalAI Interface](assets/01.png)
+*The main interface of LyricalAI showing the lyrics generation and audio transcription features*
+
+![Generated Lyrics Example](assets/02.png)
+*Example of AI-generated lyrics with proper section formatting*
+
 ## ✨ Features
 
 - **AI-Powered Lyrics Generation**: Generate creative and coherent lyrics using fine-tuned GPT-2 models
@@ -14,12 +22,14 @@ LyricalAI is an innovative web application that combines the power of AI to gene
 
 ### Backend
 - FastAPI (Python web framework)
-- GPT-2 (Fine-tuned for lyrics generation)
+- GPT-2 (Fine-tuned on RTX 5080 GPU for lyrics generation)
 - Whisper (Speech-to-text)
 - PyTorch
 - Uvicorn (ASGI server)
+- Hugging Face
 
 ### Frontend
+- Vite
 - React.js
 - Modern CSS
 - Responsive Design
