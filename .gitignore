@@ -14,7 +14,7 @@ Thumbs.db
 # Environment
 .env
 
-# Audio
+# Audio and CSV files
 *.wav
 *.mp3
 *.csv
@@ -23,4 +23,9 @@ Thumbs.db
 FineTuned-AI-Models/dataset/lyrics.txt
 FineTuned-AI-Models/dataset/lyrics_dataset/
 FineTuned-AI-Models/training/lyrics_dataset/
+FineTuned-AI-Models/training/lyrics_dataset/gpt2-lyrics-model
 FineTuned-AI-Models/lyrics.csv
+
+# Model files
+FineTuned-AI-Models/training/
+FineTuned-AI-Models/training/gpt2-lyrics-model/
