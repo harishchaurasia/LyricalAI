@@ -9,7 +9,7 @@ LyricalAI is an innovative web application that combines the power of AI to gene
   <img src="assets/02.png" width="38%" alt="Generated Lyrics Example">
 </div>
 
-<div align="center">
+<div align="left">
   <p><em>The main interface of LyricalAI showing the lyrics generation and audio transcription features with an AI-generated lyrics with proper section formatting.</em></p>
 </div>
 
