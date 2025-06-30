@@ -98,21 +98,21 @@ The application will be available at `http://localhost:3000`
 2. The system will automatically transcribe the audio to text
 3. Use the transcription as a base for your lyrics
 
-⚠️ Disclaimer
-LyricalAI uses a fine-tuned GPT-2 model trained on approximately 400,000 song lyrics. Due to the relatively small model size and limited dataset, it may occasionally produce inaccurate, repetitive, or nonsensical lyrics. These outputs do not reflect real artists, copyrighted material, or intended meanings. Use with discretion, especially in professional or public settings.
+⚠️ Disclaimer:
+- LyricalAI uses a fine-tuned GPT-2 model trained on approximately 400,000 song lyrics. Due to the relatively small model size and limited dataset, it may occasionally produce inaccurate, repetitive, or nonsensical lyrics. These outputs do not reflect real artists, copyrighted material, or intended meanings. Use with discretion, especially in professional or public settings.
 
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+🤝 Contributing:
+- Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+📝 License:
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+🙏 Acknowledgments:
 OpenAI for the Whisper model
 Hugging Face for the GPT-2 model
 All contributors and users of the project
 
-📧 Contact
-For any questions or suggestions, please open an issue in the repository.
+📧 Contact:
+- For any questions or suggestions, please open an issue in the repository.
 
 Made with ❤️ by Harish Chaurasia
