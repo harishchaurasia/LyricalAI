@@ -22,9 +22,8 @@ LyricalAI is an innovative web application that combines the power of AI to gene
 - **Real-time Processing**: Fast and efficient processing of both text and audio inputs  
 
 ## 🌐 Try it on Hugging Face
-
-- **Live Demo (Hugging Face Space)**: [Lyrics Generator Space](https://huggingface.co/spaces/harishchaurasia/lyrics-generator)  
-- **Fine-Tuned GPT-2 Model**: [harishchaurasia/gpt2-lyrics-model-fine-tuned](https://huggingface.co/harishchaurasia/gpt2-lyrics-model-fine-tuned)
+- <a href="https://huggingface.co/spaces/harishchaurasia/lyrics-generator" target="_blank">Live Demo (Hugging Face Space)</a>  
+- <a href="https://huggingface.co/harishchaurasia/gpt2-lyrics-model-fine-tuned" target="_blank">Fine-Tuned GPT-2 Model</a>
 
 ## 🛠️ Tech Stack
 
