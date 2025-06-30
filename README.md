@@ -108,9 +108,9 @@ The application will be available at `http://localhost:3000`
 - This project is licensed under the MIT License - see the LICENSE file for details.
 
 🙏 Acknowledgments:
-OpenAI for the Whisper model
-Hugging Face for the GPT-2 model
-All contributors and users of the project
+- OpenAI for the Whisper model
+- Hugging Face for the GPT-2 model
+- All contributors and users of the project
 
 📧 Contact:
 - For any questions or suggestions, please open an issue in the repository.
