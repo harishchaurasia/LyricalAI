@@ -23,7 +23,7 @@ LyricalAI is an innovative web application that combines the power of AI to gene
 
 ## 🌐 Try it on Hugging Face
 - <a href="https://huggingface.co/spaces/harishchaurasia/lyrics-generator" target="_blank">Live Demo (Hugging Face Space)</a>  
-- <a href="https://huggingface.co/harishchaurasia/gpt2-lyrics-model-fine-tuned" target="_blank">Fine-Tuned GPT-2 Model</a>
+- <a href="https://huggingface.co/harishchaurasia/gpt2-lyrics-model-fine-tuned" target="_blank">Fine-Tuned GPT-2 Lyrics Gen Model</a>
 
 ## 🛠️ Tech Stack
 
@@ -99,9 +99,9 @@ The application will be available at `http://localhost:3000`
 3. Use the transcription as a base for your lyrics
 
 ⚠️ Disclaimer:
-- LyricalAI uses a fine-tuned GPT-2 model trained on approximately 400,000 song lyrics. Due to the relatively small model size and limited dataset, it may occasionally produce inaccurate, repetitive, or nonsensical lyrics. These outputs do not reflect real artists, copyrighted material, or intended meanings. Use with discretion, especially in professional or public settings.
+- LyricalAI uses a fine-tuned GPT-2 model trained on approximately ~400k song lyrics. Due to the relatively small model size and limited dataset, it may occasionally produce inaccurate, repetitive, or nonsensical lyrics. These outputs do not reflect real artists, copyrighted material, or intended meanings. Use with discretion, especially in professional or public settings.
 
-🤝 Contributing:
+🤝 Contributions:
 - Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 📝 License:
