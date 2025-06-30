@@ -13,106 +13,104 @@ LyricalAI is an innovative web application that combines the power of AI to gene
   <p><em>The main interface of LyricalAI showing the lyrics generation and audio transcription features with an AI-generated lyrics with proper section formatting.</em></p>
 </div>
 
-
 ## ✨ Features
 
-- **AI-Powered Lyrics Generation**: Generate creative and coherent lyrics using fine-tuned GPT-2 models
-- **Audio Transcription**: Convert speech to text using OpenAI's Whisper model
-- **Section-Based Formatting**: Automatically formats lyrics with proper verse, chorus, and bridge sections
-- **Modern Web Interface**: Clean and intuitive user interface for a great user experience
-- **Real-time Processing**: Fast and efficient processing of both text and audio inputs
+- **AI-Powered Lyrics Generation**: Generate creative and coherent lyrics using fine-tuned GPT-2 models  
+- **Audio Transcription**: Convert speech to text using OpenAI's Whisper model  
+- **Section-Based Formatting**: Automatically formats lyrics with proper verse, chorus, and bridge sections  
+- **Modern Web Interface**: Clean and intuitive user interface for a great user experience  
+- **Real-time Processing**: Fast and efficient processing of both text and audio inputs  
+
+## 🌐 Try it on Hugging Face
+
+- **Live Demo (Hugging Face Space)**: [Lyrics Generator Space](https://huggingface.co/spaces/harishchaurasia/lyrics-generator)  
+- **Fine-Tuned GPT-2 Model**: [harishchaurasia/gpt2-lyrics-model-fine-tuned](https://huggingface.co/harishchaurasia/gpt2-lyrics-model-fine-tuned)
 
 ## 🛠️ Tech Stack
 
 ### Backend
-- FastAPI (Python web framework)
-- GPT-2 (Fine-tuned on RTX 5080 GPU for lyrics generation)
-- Whisper (Speech-to-text)
-- PyTorch
-- Uvicorn (ASGI server)
-- Hugging Face
+- FastAPI (Python web framework)  
+- GPT-2 (Fine-tuned on RTX 5080 GPU for lyrics generation)  
+- Whisper (Speech-to-text)  
+- PyTorch  
+- Uvicorn (ASGI server)  
+- Hugging Face  
 
 ### Frontend
-- Vite
-- React.js
-- Modern CSS
-- Responsive Design
+- Vite  
+- React.js  
+- Modern CSS  
+- Responsive Design  
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8+
-- Node.js 14+
+- Python 3.8+  
+- Node.js 14+  
 - CUDA-compatible GPU (optional, for faster processing)
 
 ### Installation
 
-1. Clone the repository:
-```bash
+# Clone the repository
 git clone https://github.com/harishchaurasia/LyricalAI.git
 cd LyricalAI
-```
 
-2. Set up the backend:
-```bash
+# Set up the backend
 cd backend
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-```
+cd ..
 
-3. Set up the frontend:
-```bash
+# Set up the frontend
 cd frontend
 npm install
-```
+cd ..
 
-### Running the Application
-
-1. Start the backend server:
-```bash
+# Start the backend server
 cd backend
 uvicorn main:app --reload
-```
+# Leave this running, or run in a separate terminal
 
-2. Start the frontend development server:
-```bash
-cd frontend
+# Start the frontend development server (in a new terminal)
+cd ../frontend
 npm start
-```
 
-The application will be available at `http://localhost:3000`
+# The application will be available at:
+# http://localhost:3000
 
-## 🎯 Usage
+🎯 Usage
+Generating Lyrics
+Enter a prompt or theme for your lyrics
 
-### Generating Lyrics
-1. Enter a prompt or theme for your lyrics
-2. Click "Generate" to create AI-powered lyrics
-3. The generated lyrics will be formatted with proper sections (verse, chorus, bridge)
+Click "Generate" to create AI-powered lyrics
 
-### Transcribing Audio
-1. Upload an audio file (supported formats: WAV, MP3)
-2. The system will automatically transcribe the audio to text
-3. Use the transcription as a base for your lyrics
+The generated lyrics will be formatted with proper sections (verse, chorus, bridge)
 
-## 🤝 Contributing
+Transcribing Audio
+Upload an audio file (supported formats: WAV, MP3)
 
+The system will automatically transcribe the audio to text
+
+Use the transcription as a base for your lyrics
+
+⚠️ Disclaimer
+LyricalAI uses a fine-tuned GPT-2 model trained on approximately 400,000 song lyrics. Due to the relatively small model size and limited dataset, it may occasionally produce inaccurate, repetitive, or nonsensical lyrics. These outputs do not reflect real artists, copyrighted material, or intended meanings. Use with discretion, especially in professional or public settings.
+
+🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📝 License
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+🙏 Acknowledgments
+OpenAI for the Whisper model
 
-## 🙏 Acknowledgments
+Hugging Face for the GPT-2 model
 
-- OpenAI for the Whisper model
-- Hugging Face for the GPT-2 model
-- All contributors and users of the project
+All contributors and users of the project
 
-## 📧 Contact
-
+📧 Contact
 For any questions or suggestions, please open an issue in the repository.
 
----
-
-Made with ❤️ by [Harish Chaurasia] 
+Made with ❤️ by Harish Chaurasia
